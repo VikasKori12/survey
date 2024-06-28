@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Styled SurveyCTO Form</title>
+    <style>
+        /* Custom CSS to style the embedded form */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .custom-form-wrapper {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        iframe {
+            width: 80%;
+            height: 90%;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background: white;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-form-wrapper">
+        <iframe src="https://maction.surveycto.com/collect/employee?caseid="></iframe>
+    </div>
+</body>
+</html>
